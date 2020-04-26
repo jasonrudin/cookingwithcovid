@@ -1,0 +1,79 @@
+body{
+	background-image: url(images/background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	font-family: 'Roboto', sans-serif;
+	color: rgba(48, 48, 48);
+
+}
+
+#content{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, .8);
+	text-align: center;
+
+}
+
+h1{
+	margin:0;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	margin: 0;
+	text-align: center;
+}
+
+h3{
+	font-style: bold;
+	margin: 0;
+}
+
+#date{
+	font-style: italic;
+	margin-bottom: 5%;
+}
+
+h4{
+	margin: 0;
+}
+
+p{
+	margin: 0;
+}
+
+#page_header{
+	margin: 2em 0em
+}
+
+#ingredient_list{
+	margin-top: 5%;
+	text-align: left;
+}
+
+ul, li{
+	margin: .15em;
+}
+
+#page_content{
+	margin: 0em 5em 2em;
+}
+
+/*
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections *
+    background-image: url(images/background-photo-mobile-devices.jpg);
+  }
+}
+
+*/
